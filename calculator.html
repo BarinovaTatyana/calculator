@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    
+<p id="res"></p>
+<script>
+    let a = Number(prompt("Первое число"));
+    let b = Number(prompt("Второе число"));
+    let c = a + b;
+    console.log(c);
+    let res = document.getElementById("res");
+    res.innerHTML = `Результат сложения ${a} + ${b} = ${c}`;
+</script>
+
+</body>
+</html>
